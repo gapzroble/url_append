@@ -1,0 +1,15 @@
+{
+    "name": "url append",
+    "description": "my chrome ext",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+	"webRequest",
+	"*://arosoftware2.tpondemand.com/*",
+	"webRequestBlocking"
+    ],
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["tp.js"]
+    }
+}
